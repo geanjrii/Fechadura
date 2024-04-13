@@ -1,0 +1,14 @@
+|Fechadura
+ledverde <= ledverde.DB_MAX_OUTPUT_PORT_TYPE
+ledvermelho <= ledvermelho.DB_MAX_OUTPUT_PORT_TYPE
+clock => estadoAtual~1.DATAIN
+reset_n => ~NO_FANOUT~
+senhaDigitada[0] => ~NO_FANOUT~
+senhaDigitada[1] => ~NO_FANOUT~
+senhaDigitada[2] => ~NO_FANOUT~
+senhaDigitada[3] => ~NO_FANOUT~
+senhaDigitada[4] => ~NO_FANOUT~
+senhaDigitada[5] => Selector6.IN3
+senhaDigitada[5] => Selector7.IN1
+
+

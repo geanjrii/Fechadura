@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ledverde",
+					"strict" : false
+				},
+				{
+					"name" : "ledvermelho",
+					"strict" : false
+				},
+				{
+					"name" : "senhaDigitada[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

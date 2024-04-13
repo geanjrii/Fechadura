@@ -1,0 +1,12 @@
+
+State Machine - |Fechadura|estadoAtual
+Name estadoAtual.fechado estadoAtual.senhaErrada estadoAtual.aberto estadoAtual.chk6 estadoAtual.chk5 estadoAtual.chk4 estadoAtual.chk3 estadoAtual.chk2 estadoAtual.chk1 
+estadoAtual.chk1 0 0 0 0 0 0 0 0 0 
+estadoAtual.chk2 0 0 0 0 0 0 0 1 1 
+estadoAtual.chk3 0 0 0 0 0 0 1 0 1 
+estadoAtual.chk4 0 0 0 0 0 1 0 0 1 
+estadoAtual.chk5 0 0 0 0 1 0 0 0 1 
+estadoAtual.chk6 0 0 0 1 0 0 0 0 1 
+estadoAtual.aberto 0 0 1 0 0 0 0 0 1 
+estadoAtual.senhaErrada 0 1 0 0 0 0 0 0 1 
+estadoAtual.fechado 1 0 0 0 0 0 0 0 1 
